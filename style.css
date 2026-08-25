@@ -1,17 +1,101 @@
-* {
-  box-sizing: border-box;
-}
-
 body {
- background: rgb(20, 200, 90);
+    background: rgba(247, 74, 17, 0);
     color: rgb(45, 45, 45);
     padding: 10px;
     font-family: Arial, sans-serif;
 }
 
 #all-contents {
-  max-width: 1700px;
-  min-height: 200vh;
-  margin: 0 auto;
-  padding: 32px 40px;
+    max-width: 800px;
+    margin: auto;
+}
+
+
+nav {
+    background: rgb(255, 42, 0);
+    margin: 0 auto;
+    display: flex;
+    padding: 10px;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    color: white;
+    flex: 1;
+    margin: 0;
+}
+
+#nav-ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+main {
+    background: rgb(245, 238, 219);
+    display: flex;
+    margin-top: 20px;
+}
+
+.sidebar {
+    margin-right: 25px;
+    padding: 10px;
+}
+
+.sidebar-img {
+    width: 200px;
+}
+
+.content {
+    flex: 1;
+    padding: 15px;
+}
+
+
+#interests {
+    border: 4px silver ridge;
+    padding: 8px;
+    margin-top: 20px;
+}
+
+h2, h3 {
+    margin: 40, 235, 205;
+}
+
+.content h1 {
+  color: black;
+}
+
+#portfolio {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#portfolio li {
+  background: 40, 235, 205;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+#portfolio li:hover {
+  background: 40, 235, 205;
+}
+
+#portfolio a {
+  text-decoration: none;
+  color: #454545;
 }
