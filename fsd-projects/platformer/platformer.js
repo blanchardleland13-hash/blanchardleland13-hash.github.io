@@ -43,7 +43,7 @@ $(function () {
    createPlatform(1250, 670, 150,15);
    createBadPlatform(1250,530,15, 140);
    createBadPlatform(1335, 530, 150, 15);
-  createPlatform(1000, 450, 15, 15);
+  createPlatform(1000, 470, 15, 15);
 
    // TODO 3 - Create Collectables
     createCollectable("diamond", 350 , 600, 0.8, 0.7);
