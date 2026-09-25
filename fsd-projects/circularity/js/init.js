@@ -1,4 +1,4 @@
-const Gamification = require("./gamification");
+
 
 var init = function (window) {
     'use strict';
@@ -48,7 +48,7 @@ var init = function (window) {
   
 
         // TODO 7 : Use a loop to create multiple circles
-        for (var i = 0; i < 55; i++){
+        for (var i = 0; i < 75; i++){
             drawCircle();
         }
 
